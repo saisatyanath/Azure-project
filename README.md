@@ -12,4 +12,15 @@ For creating resources in azure, we need to create resource group. So, that all 
 - Queue storage
 - Table storage
 
+Related to data:
+
+Data lake storage for azure (for storing big data), for storing big data we have
+
+- HDI CLUSTER
+- hadoop
+- HDFS
+- Zookeeper
+- worker nodes
+- node manager
+- resource manager
   
