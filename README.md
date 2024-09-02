@@ -23,4 +23,15 @@ Data lake storage for azure (for storing big data), for storing big data we have
 - worker nodes
 - node manager
 - resource manager
+
+steps:
+
+login to Azure portal
+
+install the Azure CLI
+
+install Terraform
+
+az login
+
   
