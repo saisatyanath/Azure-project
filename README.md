@@ -14,6 +14,8 @@ For creating resources in azure, we need to create resource group. So, that all 
 
 Related to data:
 
+AWS EMR - Elastic Map Reduce, used for handling higher amount of data
+
 Data lake storage for azure (for storing big data), for storing big data we have
 
 - HDI CLUSTER
@@ -33,5 +35,24 @@ install the Azure CLI
 install Terraform
 
 az login
+
+az account set--subscription="ID "
+
+az ad sp create-for-rbac --role = "contributor" --scopes= "/subscriptions/ID"
+
+sp-> service principle
+
+step5:
+
+az login -- serviveprinciple -u CLIENT_ID -p CLIENT_SECRET --tenant TENANT_ID
+
+clone the code
+
+Add azure Terraform plugin in vs code 
+
+
+
+
+
 
   
